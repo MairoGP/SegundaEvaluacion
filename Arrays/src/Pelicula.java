@@ -2,13 +2,12 @@ public class Pelicula {
     private final String titulo;
     private int valoracion;
 
-    private final String director;
-    private final String[] casting;
+    private final String director="Josepe";
+    //private final String[] casting;
 
-    public Pelicula(String titulo, String director, String[] casting) {
+    Pelicula(String titulo, int valoracion) {
         this.titulo = titulo;
-        this.director = director;
-        this.casting = casting;
+        this.valoracion=valoracion;
     }
 
     public void setValoracion(int valoracion) {
@@ -27,12 +26,12 @@ public class Pelicula {
         return director;
     }
 
-    public String[] getCasting() {
+    /*public String[] getCasting() {
         return casting;
     }
-
-//    @Override
-//    public String toString(){
-//        return this.titulo+"-"+this.valoracion;
-//    }
+*/
+    @Override
+    public String toString(){
+        return this.titulo+" - "+this.valoracion;
+    }
 }
