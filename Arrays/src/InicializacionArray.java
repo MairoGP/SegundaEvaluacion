@@ -31,6 +31,12 @@ public class InicializacionArray {
 
         System.out.println(Arrays.toString(HBO));
 
+        Pelicula[] catalogo = {
+                new Pelicula("Dumbo",2),
+                new Pelicula("Matasuegras",10)
+        };
+
+
         String[] listaClase={
                 "ana",
                 "bea",

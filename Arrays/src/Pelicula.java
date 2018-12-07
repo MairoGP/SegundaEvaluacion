@@ -5,7 +5,7 @@ public class Pelicula {
     private final String director="Josepe";
     //private final String[] casting;
 
-    Pelicula(String titulo, int valoracion) {
+    public Pelicula(String titulo, int valoracion) {
         this.titulo = titulo;
         this.valoracion=valoracion;
     }
